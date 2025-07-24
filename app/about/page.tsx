@@ -8,8 +8,8 @@ export default function AboutPage() {
     { title: 'The Leftovers', role: 'Art Director' },
     { title: 'Tales of the City', role: 'Supervising Art Director' },
     { title: 'The Plot Against America', role: 'Supervising Art Director' },
-    { title: 'New Amsterdam', role: 'Art Director' },
-    { title: 'The Girls on the Bus', role: 'Art Director' },
+    { title: 'The Diplomat', role: 'Art Director' },
+    { title: 'Sirens', role: 'Art Director' },
   ]
 
   return (
@@ -19,6 +19,15 @@ export default function AboutPage() {
         {/* Header Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
+            <div className="mb-12">
+              <Image
+                src="/martin-logo.png"
+                alt="Martin"
+                width={200}
+                height={80}
+                className="mx-auto"
+              />
+            </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-8">About Martin</h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               Martin was born from decades of real-world production experience and a simple belief: 
