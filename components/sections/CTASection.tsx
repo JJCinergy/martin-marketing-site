@@ -1,18 +1,21 @@
 export default function CTASection() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-600">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-          Ready to revolutionize your production workflow?
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+          Your Next Script Breakdown: 3 Minutes or 3 Hours?
         </h2>
-        <p className="text-xl text-gray-300 mb-8">
-          Join thousands of production professionals who&apos;ve made the switch
+        <p className="text-xl text-blue-100 mb-4">
+          Join Emmy-winning productions already saving 2-3 days per script.
         </p>
-        <button className="bg-white text-blue-600 px-8 py-4 rounded-md font-semibold text-lg hover:bg-gray-50 transition-colors">
-          Start Free Trial
+        <p className="text-xl text-blue-100 mb-10">
+          Built by industry pros who understand your workflow.
+        </p>
+        <button className="bg-white text-blue-600 px-10 py-4 rounded-md font-semibold text-lg hover:bg-gray-50 transition-colors">
+          Start Your Free Trial
         </button>
-        <p className="text-gray-400 mt-4">
-          14-day free trial • No credit card required • Cancel anytime
+        <p className="text-blue-100 mt-6 text-sm">
+          No credit card required • 14-day free trial • Cancel anytime
         </p>
       </div>
     </section>

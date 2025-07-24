@@ -8,24 +8,24 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-white border-t border-gray-200">
+    <footer className="bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
+            <Link href="/" className="text-2xl font-bold text-white">
               Martin
             </Link>
-            <p className="mt-4 text-gray-600">
+            <p className="mt-4 text-gray-400">
               Built with ❤️ for the film & TV industry
             </p>
           </div>
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="font-semibold text-gray-900 mb-4">{category}</h3>
+              <h3 className="font-semibold text-white mb-4">{category}</h3>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link}>
-                    <Link href="#" className="text-gray-600 hover:text-gray-900">
+                    <Link href="#" className="text-gray-400 hover:text-white">
                       {link}
                     </Link>
                   </li>
@@ -34,14 +34,14 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-200">
+        <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-600">© 2024 Martin. All rights reserved.</p>
+            <p className="text-gray-400">© 2024 Martin. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="#" className="text-gray-600 hover:text-gray-900">
+              <Link href="#" className="text-gray-400 hover:text-white">
                 Privacy Policy
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-gray-900">
+              <Link href="#" className="text-gray-400 hover:text-white">
                 Terms of Service
               </Link>
             </div>
