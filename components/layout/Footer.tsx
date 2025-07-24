@@ -36,7 +36,14 @@ export default function Footer() {
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link}>
-                    <Link href="#" className="text-gray-400 hover:text-white">
+                    <Link 
+                      href={
+                        link === 'Privacy Notice' ? '/privacy' : 
+                        link === 'Terms of Use' ? '/terms-of-use' : 
+                        '#'
+                      } 
+                      className="text-gray-400 hover:text-white"
+                    >
                       {link}
                     </Link>
                   </li>
@@ -49,10 +56,10 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">© 2024 Martin. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="#" className="text-gray-400 hover:text-white">
+              <Link href="/privacy" className="text-gray-400 hover:text-white">
                 Privacy Policy
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white">
+              <Link href="/terms-of-use" className="text-gray-400 hover:text-white">
                 Terms of Service
               </Link>
             </div>
