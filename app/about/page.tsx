@@ -42,11 +42,14 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Meet the Founder</h2>
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-1/3">
-                <div className="bg-gray-300 rounded-lg overflow-hidden w-48 h-48">
-                  {/* Placeholder for Jordan's image */}
-                  <div className="w-full h-full flex items-center justify-center text-gray-500">
-                    [Jordan's Photo]
-                  </div>
+                <div className="rounded-lg overflow-hidden w-48 h-48">
+                  <Image
+                    src="/jordan-jacobs-headshot.jpg"
+                    alt="Jordan Jacobs"
+                    width={192}
+                    height={192}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className="md:w-2/3">
