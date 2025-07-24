@@ -28,7 +28,6 @@ export default function AboutPage() {
                 className="mx-auto"
               />
             </div>
-            <h1 className="text-5xl font-bold text-gray-900 mb-8">About Martin</h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               Martin was born from decades of real-world production experience and a simple belief: 
               creative professionals deserve tools that enhance their work, not complicate it.
