@@ -6,7 +6,7 @@ export default function CTASection() {
           Ready to revolutionize your production workflow?
         </h2>
         <p className="text-xl text-gray-300 mb-8">
-          Join thousands of production professionals who've made the switch
+          Join thousands of production professionals who&apos;ve made the switch
         </p>
         <button className="bg-white text-blue-600 px-8 py-4 rounded-md font-semibold text-lg hover:bg-gray-50 transition-colors">
           Start Free Trial
