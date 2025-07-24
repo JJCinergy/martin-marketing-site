@@ -15,7 +15,7 @@ export default function CTASection() {
           Start Your Free Trial
         </button>
         <p className="text-blue-100 mt-6 text-sm">
-          No credit card required • 14-day free trial • Cancel anytime
+          14-day free trial • Cancel anytime
         </p>
       </div>
     </section>

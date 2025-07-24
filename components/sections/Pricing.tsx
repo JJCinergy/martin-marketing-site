@@ -150,7 +150,7 @@ export default function Pricing() {
 
         {/* Footer text */}
         <div className="text-center mt-12 space-y-2">
-          <p className="text-gray-600">14-day free trial. No credit card required. Cancel anytime.</p>
+          <p className="text-gray-600">14-day free trial. Cancel anytime.</p>
           <p className="text-gray-600"><strong>Money-back guarantee:</strong> If Martin doesn't save you time, we'll refund your first month.</p>
         </div>
       </div>
