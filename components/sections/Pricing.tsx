@@ -29,8 +29,12 @@ export default function Pricing() {
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Freelance</h3>
             <div className="mb-4">
-              <span className="text-4xl font-bold text-gray-900">$99</span>
-              <span className="text-gray-600"> per month</span>
+              <div className="flex items-baseline gap-2 justify-center">
+                <span className="text-2xl text-gray-500 line-through">$99</span>
+                <span className="text-4xl font-bold text-gray-900">$75</span>
+                <span className="text-gray-600"> per month</span>
+              </div>
+              <p className="text-sm text-green-600 font-medium mt-1">SALE - Save $24/month or get yearly for $750</p>
             </div>
             <p className="text-gray-600 mb-6">Best for Studio Execs, Accountants, Directors, & Designers in prep.</p>
             <ul className="space-y-3 mb-8">
