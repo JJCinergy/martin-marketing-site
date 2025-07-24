@@ -5,8 +5,8 @@ export default function Footer() {
   const footerLinks = {
     Product: ['Features', 'Pricing', 'Security', 'Roadmap'],
     Company: ['About', 'Blog', 'Careers', 'Contact'],
-    Resources: ['Documentation', 'API', 'Support', 'Status'],
     Legal: ['Privacy Notice', 'Terms of Use'],
+    Resources: ['Documentation', 'API', 'Support', 'Status'],
   }
 
   return (
