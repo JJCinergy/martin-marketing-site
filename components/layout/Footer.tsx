@@ -12,8 +12,8 @@ export default function Footer() {
   return (
     <footer className="bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-          <div className="md:col-span-2">
+        <div className="flex flex-wrap md:flex-nowrap gap-8 md:gap-12 lg:gap-16">
+          <div className="w-full md:w-2/5 md:flex-shrink-0">
             <Link href="/">
               <Image
                 src="/martin-logo.png"
@@ -31,8 +31,8 @@ export default function Footer() {
             </p>
           </div>
           {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="font-semibold text-white mb-4">{category}</h3>
+            <div key={category} className="flex-1 min-w-0">
+              <h3 className="font-semibold text-white mb-4 whitespace-nowrap">{category}</h3>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link}>
@@ -42,7 +42,7 @@ export default function Footer() {
                         link === 'Terms of Use' ? '/terms-of-use' : 
                         '#'
                       } 
-                      className="text-gray-400 hover:text-white"
+                      className="text-gray-400 hover:text-white whitespace-nowrap"
                     >
                       {link}
                     </Link>
