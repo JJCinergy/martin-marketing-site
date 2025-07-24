@@ -1,7 +1,38 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+import Image from 'next/image'
+
 export default function Hero() {
+  const [logoOpacity, setLogoOpacity] = useState(1)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Fade out logo as user scrolls down
+      const scrollY = window.scrollY
+      const opacity = Math.max(0, 1 - scrollY / 100)
+      setLogoOpacity(opacity)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
+    <section className="pt-16 pb-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
+        <div 
+          className="mb-8 transition-opacity duration-300" 
+          style={{ opacity: logoOpacity }}
+        >
+          <Image
+            src="/martin-logo.png"
+            alt="Martin"
+            width={200}
+            height={80}
+            className="mx-auto"
+          />
+        </div>
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
           <span className="text-gray-900">Script to Screen,</span>
           <br />
