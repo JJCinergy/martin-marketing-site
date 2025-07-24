@@ -1,21 +1,26 @@
 export default function MetricsBar() {
-  const metrics = [
-    { value: '3 Min', label: 'Script Breakdown Time' },
-    { value: '2-3 Days', label: 'Time Saved' },
-    { value: '15x ROI', label: 'Value Delivered' },
-    { value: '20+', label: 'Departments Supported' },
-  ]
-
   return (
     <section className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {metrics.map((metric, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-blue-600">{metric.value}</div>
-              <div className="text-sm sm:text-base text-gray-600 mt-2">{metric.label}</div>
-            </div>
-          ))}
+          <div className="text-center">
+            <div className="text-xl text-orange-500 line-through">10 Sec</div>
+            <div className="text-3xl sm:text-4xl font-bold text-blue-600">3 Min</div>
+            <div className="text-sm sm:text-base text-gray-600 mt-2">Script Breakdown Time</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl sm:text-4xl font-bold text-blue-600">2-3 Days</div>
+            <div className="text-sm sm:text-base text-gray-600 mt-2">Time Saved</div>
+            <div className="text-sm text-orange-500 mt-1">Time saved per episode</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl sm:text-4xl font-bold text-blue-600">15x ROI</div>
+            <div className="text-sm sm:text-base text-gray-600 mt-2">Value Delivered</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl sm:text-4xl font-bold text-blue-600">20+</div>
+            <div className="text-sm sm:text-base text-gray-600 mt-2">Departments Supported</div>
+          </div>
         </div>
       </div>
     </section>
