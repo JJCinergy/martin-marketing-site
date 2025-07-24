@@ -12,7 +12,7 @@ export default function MetricsBar() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {metrics.map((metric, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-gray-900">{metric.value}</div>
+              <div className="text-3xl sm:text-4xl font-bold text-blue-600">{metric.value}</div>
               <div className="text-sm sm:text-base text-gray-600 mt-2">{metric.label}</div>
             </div>
           ))}

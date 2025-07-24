@@ -1,6 +1,7 @@
 import Navigation from '@/components/layout/Navigation'
 import Hero from '@/components/sections/Hero'
 import MetricsBar from '@/components/sections/MetricsBar'
+import WorkflowSection from '@/components/sections/WorkflowSection'
 import Features from '@/components/sections/Features'
 import HowItWorks from '@/components/sections/HowItWorks'
 import Pricing from '@/components/sections/Pricing'
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <MetricsBar />
+        <WorkflowSection />
         <Features />
         <HowItWorks />
         <Pricing />

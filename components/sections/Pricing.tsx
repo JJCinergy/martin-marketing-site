@@ -53,13 +53,13 @@ export default function Pricing() {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-white p-8 rounded-lg shadow-sm border ${
-                plan.popular ? 'border-gray-900 shadow-lg' : 'border-gray-200'
+              className={`relative bg-white p-8 rounded-lg shadow-sm border-2 ${
+                plan.popular ? 'border-blue-600 shadow-lg' : 'border-gray-200'
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gray-900 text-white px-4 py-1 rounded-full text-sm font-medium">
+                  <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-medium">
                     Most Popular
                   </span>
                 </div>
@@ -82,9 +82,9 @@ export default function Pricing() {
                 ))}
               </ul>
               <button
-                className={`w-full py-3 px-6 rounded-md font-semibold transition ${
+                className={`w-full py-3 px-6 rounded-md font-semibold transition-colors ${
                   plan.popular
-                    ? 'bg-gray-900 text-white hover:bg-gray-800'
+                    ? 'bg-blue-600 text-white hover:bg-blue-700'
                     : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                 }`}
               >

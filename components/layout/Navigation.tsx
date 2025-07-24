@@ -27,10 +27,16 @@ export default function Navigation() {
               Pricing
             </Link>
             <Link
-              href="/signin"
-              className="text-white bg-gray-900 hover:bg-gray-800 px-4 py-2 rounded-md font-medium"
+              href="/demo"
+              className="text-gray-700 hover:text-gray-900 font-medium"
             >
-              Sign In
+              Get a Demo
+            </Link>
+            <Link
+              href="/get-started"
+              className="text-white bg-blue-600 hover:bg-blue-700 px-6 py-2.5 rounded-md font-medium transition-colors"
+            >
+              Get Started
             </Link>
           </div>
 
