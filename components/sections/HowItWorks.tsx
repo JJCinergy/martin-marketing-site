@@ -3,12 +3,12 @@ export default function HowItWorks() {
     {
       number: '1',
       title: 'Upload Script',
-      description: 'Drag and drop your PDF or Final Draft file',
+      description: 'Drag and drop your PDF file.',
     },
     {
       number: '2',
       title: 'Review & Refine',
-      description: 'AI highlights elements, you perfect the details',
+      description: 'Automated character, scene, and set breakdowns with instant worklist integration.',
     },
     {
       number: '3',

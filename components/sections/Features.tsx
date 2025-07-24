@@ -1,9 +1,9 @@
 export default function Features() {
   const features = [
     {
-      icon: '📝',
+      icon: '✏️',
       title: 'Digital Script Highlighting',
-      description: 'Intelligent element detection',
+      description: 'Custom colors and fields',
     },
     {
       icon: '📌',
@@ -12,8 +12,8 @@ export default function Features() {
     },
     {
       icon: '⚡',
-      title: 'Instant Breakdown',
-      description: 'Elements detected automatically',
+      title: 'Instant Reports',
+      description: "PDF's or Excel docs in seconds",
     },
     {
       icon: '👥',
