@@ -48,8 +48,10 @@ export default function Navigation() {
               About
             </Link>
             <Link
-              href="/demo"
+              href="https://calendly.com/jordan-getmartin/martin-demo2"
               className="text-gray-700 hover:text-gray-900 font-medium"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Get a Demo
             </Link>
