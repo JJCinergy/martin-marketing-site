@@ -6,7 +6,7 @@ export default function Footer() {
     Product: ['Features', 'Pricing', 'Security', 'Roadmap'],
     Company: ['About', 'Blog', 'Careers', 'Contact'],
     Legal: ['Privacy Notice', 'Terms of Use'],
-    Resources: ['Documentation', 'API', 'Support', 'Status'],
+    Resources: ['Documentation', 'API', 'Support', 'Knowledge Base'],
   }
 
   return (
@@ -41,9 +41,12 @@ export default function Footer() {
                         link === 'Privacy Notice' ? '/privacy' : 
                         link === 'Terms of Use' ? '/terms-of-use' : 
                         link === 'About' ? '/about' :
+                        link === 'Support' ? 'https://martin-digital-inc.outseta.com/support/kb' :
                         '#'
                       } 
                       className="text-gray-400 hover:text-white whitespace-nowrap"
+                      target={link === 'Support' ? '_blank' : undefined}
+                      rel={link === 'Support' ? 'noopener noreferrer' : undefined}
                     >
                       {link}
                     </Link>
