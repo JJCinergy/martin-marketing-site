@@ -106,20 +106,22 @@ export default function AboutPage() {
         </section>
 
         {/* Who is Martin Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-white mb-8">Who is Martin?</h2>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              On every production, Martin is that one indispensable person who always knows what's 
-              happening. They've read every script, tracked every change, studied every schedule, and 
-              connected with every department. They're simply on top of it all. That's the spirit we've 
-              captured in this software.
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              The real Martin was my close colleague and dear friend who passed away this year. He 
-              embodied everything this software represents - dedication, attention to detail, and an 
-              unwavering commitment to helping everyone around him succeed. This product is dedicated to the memory of the amazing and beloved Martin.
-            </p>
+        <section className="py-20 px-4 sm:px-6 lg:px-8 mb-20">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-gray-900 rounded-lg p-12 text-center">
+              <h2 className="text-3xl font-bold text-white mb-8">Who is Martin?</h2>
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                On every production, Martin is that one indispensable person who always knows what's 
+                happening. They've read every script, tracked every change, studied every schedule, and 
+                connected with every department. They're simply on top of it all. That's the spirit we've 
+                captured in this software.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                The real Martin was my close colleague and dear friend who passed away recently. He 
+                embodied everything this software represents - dedication, attention to detail, and an 
+                unwavering commitment to helping everyone around him succeed. This product is dedicated to the memory of the amazing and beloved Martin.
+              </p>
+            </div>
           </div>
         </section>
       </div>
