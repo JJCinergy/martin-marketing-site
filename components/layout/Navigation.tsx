@@ -35,14 +35,17 @@ export default function Navigation() {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#features" className="text-gray-700 hover:text-gray-900 font-medium">
+            <Link href="/#features" className="text-gray-700 hover:text-gray-900 font-medium">
               Features
             </Link>
-            <Link href="#how-it-works" className="text-gray-700 hover:text-gray-900 font-medium">
+            <Link href="/#how-it-works" className="text-gray-700 hover:text-gray-900 font-medium">
               How It Works
             </Link>
-            <Link href="#pricing" className="text-gray-700 hover:text-gray-900 font-medium">
+            <Link href="/#pricing" className="text-gray-700 hover:text-gray-900 font-medium">
               Pricing
+            </Link>
+            <Link href="/about" className="text-gray-700 hover:text-gray-900 font-medium">
+              About
             </Link>
             <Link
               href="/demo"
@@ -78,22 +81,28 @@ export default function Navigation() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
-                href="#features"
+                href="/#features"
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 Features
               </Link>
               <Link
-                href="#how-it-works"
+                href="/#how-it-works"
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 How It Works
               </Link>
               <Link
-                href="#pricing"
+                href="/#pricing"
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 Pricing
+              </Link>
+              <Link
+                href="/about"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+              >
+                About
               </Link>
               <Link
                 href="/signin"

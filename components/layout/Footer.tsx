@@ -40,6 +40,7 @@ export default function Footer() {
                       href={
                         link === 'Privacy Notice' ? '/privacy' : 
                         link === 'Terms of Use' ? '/terms-of-use' : 
+                        link === 'About' ? '/about' :
                         '#'
                       } 
                       className="text-gray-400 hover:text-white whitespace-nowrap"
