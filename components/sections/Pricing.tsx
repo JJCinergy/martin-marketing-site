@@ -32,7 +32,7 @@ export default function Pricing() {
               <span className="text-4xl font-bold text-gray-900">$99</span>
               <span className="text-gray-600"> per month</span>
             </div>
-            <p className="text-gray-600 mb-6">Best for independent productions & development</p>
+            <p className="text-gray-600 mb-6">Best for Studio Execs, Accountants, Directors, & Designers in prep.</p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
