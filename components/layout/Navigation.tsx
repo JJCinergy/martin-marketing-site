@@ -1,18 +1,36 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import Image from 'next/image'
+import { useState, useEffect } from 'react'
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [showNav, setShowNav] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show navigation when scrolled down more than 50px
+      setShowNav(window.scrollY > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
-    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
+    <nav className={`fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100 transition-transform duration-300 ${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
-              Martin
+            <Link href="/">
+              <Image
+                src="/martin-logo.png"
+                alt="Martin"
+                width={100}
+                height={40}
+                className="h-8 w-auto"
+              />
             </Link>
           </div>
 
