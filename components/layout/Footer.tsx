@@ -1,10 +1,12 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const footerLinks = {
     Product: ['Features', 'Pricing', 'Security', 'Roadmap'],
     Company: ['About', 'Blog', 'Careers', 'Contact'],
     Resources: ['Documentation', 'API', 'Support', 'Status'],
+    Legal: ['Privacy Notice', 'Terms of Use'],
   }
 
   return (
@@ -12,11 +14,20 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="text-2xl font-bold text-white">
-              Martin
+            <Link href="/">
+              <Image
+                src="/martin-logo.png"
+                alt="Martin"
+                width={150}
+                height={60}
+                className="mb-4"
+              />
             </Link>
-            <p className="mt-4 text-gray-400">
-              Built with ❤️ for the film & TV industry
+            <p className="text-gray-400 mb-4">
+              The fastest script breakdown in Film & TV.
+            </p>
+            <p className="text-gray-500 text-sm italic">
+              "A script breakdown in under 30 seconds is like magic"
             </p>
           </div>
           {Object.entries(footerLinks).map(([category, links]) => (
