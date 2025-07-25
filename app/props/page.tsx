@@ -38,6 +38,15 @@ export default function PropsPage() {
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto text-center">
+            <div className="mb-12">
+              <Image
+                src="/martin-logo.png"
+                alt="Martin"
+                width={200}
+                height={80}
+                className="mx-auto"
+              />
+            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Track every prop with precision
             </h1>
