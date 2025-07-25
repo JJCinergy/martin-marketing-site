@@ -79,6 +79,9 @@ export default function Pricing() {
               Start Free Trial
             </a>
             <p className="text-sm text-gray-600 text-center mt-4">Add-on additional projects</p>
+            <p className="text-sm text-blue-600 font-medium text-center mt-2">
+              <a href="/iatse" className="underline hover:text-blue-700">Union discounts available</a>
+            </p>
           </div>
 
           {/* Small Team Plan */}
