@@ -88,7 +88,7 @@ export default function IATSEPage() {
                 <p className="font-medium">
                   In solidarity,<br />
                   Jordan Jacobs<br />
-                  IATSE Member since 1998
+                  United Scenic Artists, Local 829, IATSE
                 </p>
               </div>
             </div>
