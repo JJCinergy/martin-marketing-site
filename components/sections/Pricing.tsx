@@ -24,7 +24,7 @@ export default function Pricing() {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
           {/* Freelance Plan */}
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Freelance</h3>
@@ -42,13 +42,13 @@ export default function Pricing() {
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Single user</span>
+                <span className="text-gray-700">1 user</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">2 Active projects</span>
+                <span className="text-gray-700">5 projects</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -75,36 +75,37 @@ export default function Pricing() {
                 <span className="text-gray-700">Email support</span>
               </li>
             </ul>
-            <button className="w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors">
+            <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=DmwBvrW4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
               Start Free Trial
-            </button>
+            </a>
+            <p className="text-sm text-gray-600 text-center mt-4">Add-on additional projects</p>
           </div>
 
-          {/* Team Plan */}
+          {/* Small Team Plan */}
           <div className="relative bg-blue-600 p-8 rounded-lg shadow-lg">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
               <span className="bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-medium uppercase">
                 Most Popular
               </span>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">Team</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Small Team</h3>
             <div className="mb-4">
-              <span className="text-4xl font-bold text-white">$500</span>
+              <span className="text-4xl font-bold text-white">$250</span>
               <span className="text-blue-100"> per month</span>
             </div>
-            <p className="text-blue-100 mb-6">For production companies and TV shows</p>
+            <p className="text-blue-100 mb-6">Perfect for small production companies</p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-white mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">Unlimited users</span>
+                <span className="text-white">Up to 5 users</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-white mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">Unlimited projects</span>
+                <span className="text-white">5 projects</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-white mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -131,9 +132,62 @@ export default function Pricing() {
                 <span className="text-white">API access</span>
               </li>
             </ul>
-            <button className="w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors">
+            <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors text-center">
               Start Free Trial
-            </button>
+            </a>
+            <p className="text-sm text-blue-100 text-center mt-4">Add-on additional projects</p>
+          </div>
+
+          {/* Team Plan */}
+          <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">Team</h3>
+            <div className="mb-4">
+              <span className="text-4xl font-bold text-gray-900">$500</span>
+              <span className="text-gray-600"> per month</span>
+            </div>
+            <p className="text-gray-600 mb-6">For production companies and TV shows</p>
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">Unlimited users</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">1 project</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">All department features</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">User permissions</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">Priority support</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700">API access</span>
+              </li>
+            </ul>
+            <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=z9M31Jm4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
+              Start Free Trial
+            </a>
+            <p className="text-sm text-gray-600 text-center mt-4">Add-on additional projects</p>
           </div>
         </div>
 
@@ -151,7 +205,7 @@ export default function Pricing() {
         {/* Footer text */}
         <div className="text-center mt-12 space-y-2">
           <p className="text-gray-600">14-day free trial. Cancel anytime.</p>
-          <p className="text-gray-600"><strong>Money-back guarantee:</strong> If Martin doesn't save you time, we'll refund your first month.</p>
+          <p className="text-gray-600"><strong>Money-back guarantee:</strong> If Martin doesn&apos;t save you time, we&apos;ll refund your first month.</p>
         </div>
       </div>
     </section>
