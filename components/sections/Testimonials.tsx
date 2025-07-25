@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Testimonials() {
   const testimonials = [
     {
@@ -46,9 +48,13 @@ export default function Testimonials() {
               <div className="flex items-start gap-4">
                 {testimonial.photo && (
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 text-sm">
-                      {testimonial.author.split(' ').map(n => n[0]).join('')}
-                    </div>
+                    <Image
+                      src={`/${testimonial.photo}`}
+                      alt={testimonial.author}
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
                   </div>
                 )}
                 <div>
