@@ -27,9 +27,9 @@ export default function IATSEPage() {
                 Exclusive IATSE Member Pricing
               </h2>
               <div className="mb-6">
-                <span className="text-5xl font-bold text-blue-600">$50</span>
+                <span className="text-5xl font-bold text-blue-600">$45</span>
                 <span className="text-gray-600 text-lg"> per month</span>
-                <p className="text-green-600 font-medium mt-2">Save $25/month off regular pricing</p>
+                <p className="text-green-600 font-medium mt-2">Save $30/month off regular pricing</p>
               </div>
               <ul className="text-left space-y-3 mb-8 max-w-sm mx-auto">
                 <li className="flex items-start">
@@ -73,17 +73,16 @@ export default function IATSEPage() {
               </h2>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  I&apos;ve been a proud IATSE member for over 25 years, working my way up from PA to 
-                  producer. I&apos;ve lived through the late nights, the impossible deadlines, and the 
+                  I&apos;ve been a proud IATSE member for over 25 years, working my way up from office assistant to 
+                  Supervising Art Director. I&apos;ve lived through the late nights, the impossible deadlines, and the 
                   constant pressure to do more with less.
                 </p>
                 <p>
                   I built Martin because I got tired of watching talented union crews waste hours on 
-                  manual breakdowns and paperwork instead of doing what they do best - making great 
-                  content. This isn&apos;t just software; it&apos;s a tool built by one of us, for all of us.
+                  manual breakdowns and paperwork instead of doing what they do best - being creative. This isn&apos;t just software; it&apos;s a tool built by one of us, for all of us.
                 </p>
                 <p>
-                  That&apos;s why I&apos;m offering this special discount to my union brothers and sisters. 
+                  That&apos;s why I&apos;m offering this special discount to my union kin. 
                   We&apos;ve always looked out for each other, and this is my way of continuing that tradition.
                 </p>
                 <p className="font-medium">
