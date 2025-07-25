@@ -108,7 +108,7 @@ export default function IATSEPage() {
                 </h3>
                 <p className="text-gray-600">
                   No more late night or weekend unpaid overtime doing breakdowns. Martin handles it in seconds, so you can 
-                  focus on the work that pays.
+                  focus on what matters to you.
                 </p>
               </div>
               <div>
