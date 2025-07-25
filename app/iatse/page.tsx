@@ -149,7 +149,7 @@ export default function IATSEPage() {
               Ready to Join Your Fellow Union Members?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Thousands of IATSE members are already saving hours every week with Martin.
+              IATSE members are already saving hours of manual updating every week with Martin.
             </p>
             <a 
               href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=gWKVZM9p&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" 
