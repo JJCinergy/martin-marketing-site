@@ -3,27 +3,27 @@ import Image from 'next/image'
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "I love this script app. It&apos;s a really good simple idea that is so obvious it hurts. It&apos;s so flexible, that people can make it as complex and rich as a production is willing to go. Other software is clearly made by &apos;tech bros,&apos; and not industry folks. Cinergy just gets it.",
+      quote: "I love this script app. It's a really good simple idea that is so obvious it hurts. It's so flexible, that people can make it as complex and rich as a production is willing to go. Other software is clearly made by 'tech bros,' and not industry folks. Cinergy just gets it.",
       author: "James Bolenbaugh",
-      role: "Art Director HBO&apos;s Westworld",
+      role: "Art Director HBO's Westworld",
       union: "ADG Local 800",
       photo: "james-bolenbaugh.jpg"
     },
     {
-      quote: "A script breakdown in under 3 minutes is like magic, it saves me time and helps me finish budgets days faster!",
+      quote: "A script breakdown in under 30 seconds is like magic, it saves me time and helps me finish budgets days faster!",
       author: "Andrew Wheeler",
       role: "Production Accountant",
       photo: "andy-wheeler-photo.jpg"
     },
     {
-      quote: "The layout is great. It&apos;s so intuitive and quick. The way that everything is assimilated is simple. And It has to be, our days can be so chaotic- it&apos;s incredibly helpful that it covers everything.",
+      quote: "The layout is great. It's so intuitive and quick. The way that everything is assimilated is simple. And It has to be, our days can be so chaotic- it's incredibly helpful that it covers everything.",
       author: "Susannah McCarthy",
       role: "Prop Master",
       union: "IA Local 52",
       photo: "susannah-mccarthy.jpg"
     },
     {
-      quote: "I can&apos;t tell you how much I dislike creating a set list, and this made it much easier.",
+      quote: "I can't tell you how much I dislike creating a set list, and this made it much easier.",
       author: "Andy Ecklund",
       role: "Art Director",
       union: "IA Local 829",
