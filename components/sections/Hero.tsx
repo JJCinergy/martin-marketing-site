@@ -42,12 +42,12 @@ export default function Hero() {
           The fastest script breakdown in Film & TV. Built by Emmy-winning professionals, not tech bros. Save days of prep time while keeping full creative control.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-md font-semibold text-lg hover:bg-blue-700 transition-colors">
+          <a href="#pricing" className="bg-blue-600 text-white px-8 py-4 rounded-md font-semibold text-lg hover:bg-blue-700 transition-colors text-center">
             Get Started
-          </button>
-          <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-md font-semibold text-lg hover:bg-blue-50 transition-colors">
+          </a>
+          <a href="https://calendly.com/jordan-getmartin/martin-demo2" target="_blank" rel="noopener noreferrer" className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-md font-semibold text-lg hover:bg-blue-50 transition-colors text-center">
             Schedule Demo
-          </button>
+          </a>
         </div>
         <div className="flex flex-col sm:flex-row gap-6 justify-center text-gray-600">
           <div className="flex items-center gap-2">
