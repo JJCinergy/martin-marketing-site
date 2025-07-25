@@ -28,9 +28,9 @@ export default function Hero() {
           <Image
             src="/martin-logo.png"
             alt="Martin"
-            width={200}
-            height={80}
-            className="mx-auto"
+            width={250}
+            height={100}
+            className="mx-auto h-20 w-auto"
           />
         </div>
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
