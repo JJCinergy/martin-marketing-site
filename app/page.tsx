@@ -1,3 +1,4 @@
+// Deployment test: August 1, 2025 - 11:17 AM
 import Navigation from '@/components/layout/Navigation'
 import Hero from '@/components/sections/Hero'
 import MetricsBar from '@/components/sections/MetricsBar'
