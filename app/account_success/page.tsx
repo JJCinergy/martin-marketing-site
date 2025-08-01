@@ -1,3 +1,4 @@
+// Account success page - shown after user signs up
 export default function AccountSuccess() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
