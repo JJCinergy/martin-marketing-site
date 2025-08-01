@@ -4,10 +4,10 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Save Time. Save Money. Start Today.
+            How Film & TV Professionals Collaborate
           </h2>
           <p className="text-xl text-gray-600">
-            Join productions saving 2-3 days per script. ROI in your first breakdown.
+            Save time and get organized with the fastest way to break down a script.
           </p>
         </div>
 

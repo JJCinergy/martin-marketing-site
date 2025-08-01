@@ -6,7 +6,7 @@ export default function WorkflowSection() {
           Work the Way You Think
         </h2>
         <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-          From first read to final shot list, Martin adapts to how creative teams actually work. No more fighting your software.
+          From first read to final wrap list, Martin simplifies the number of apps you use.
         </p>
       </div>
     </section>

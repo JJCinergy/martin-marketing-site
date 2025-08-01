@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 export default function Footer() {
   const footerLinks = {
-    Product: ['Features', 'Pricing', 'Security', 'Roadmap'],
-    Company: ['About', 'Blog', 'Careers', 'Contact'],
+    Product: ['Features', 'Pricing', 'Security'],
+    Company: ['About', 'Blog', 'Contact'],
     Legal: ['Privacy Notice', 'Terms of Use'],
-    Resources: ['Knowledge Base', 'API', 'Support', 'Contact'],
+    Resources: ['Knowledge Base', 'Support', 'Contact'],
   }
 
   return (

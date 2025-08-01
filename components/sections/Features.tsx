@@ -37,7 +37,11 @@ export default function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Features</h2>
-          <p className="text-xl text-gray-600">Everything you need for modern production management</p>
+          <p className="text-xl text-gray-600">
+            Martin helps creative teams breakdown scripts and share photos & drawings.
+            <br />
+            Save hours on repetitive tasks and instantly understand your project's needs
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
