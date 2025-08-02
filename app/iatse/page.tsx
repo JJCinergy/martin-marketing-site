@@ -29,7 +29,7 @@ export default function IATSEPage() {
               <div className="mb-6">
                 <span className="text-5xl font-bold text-blue-600">$45</span>
                 <span className="text-gray-600 text-lg"> per month</span>
-                <p className="text-green-600 font-medium mt-2">Save $30/month off regular pricing</p>
+                <p className="text-green-600 font-medium mt-2">Save $54/month off regular pricing</p>
               </div>
               <ul className="text-left space-y-3 mb-8 max-w-sm mx-auto">
                 <li className="flex items-start">
