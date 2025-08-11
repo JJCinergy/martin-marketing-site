@@ -7,7 +7,7 @@ export default function AccountSuccess() {
         <img
           src="/martin-logo.png"
           alt="Martin"
-          className="h-12 mx-auto mb-12"
+          className="h-[58px] mx-auto mb-12"
         />
 
         {/* Main Message */}
