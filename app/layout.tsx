@@ -18,6 +18,30 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script id="rb2b-tracking" strategy="afterInteractive">
+          {`
+            !function(key) {
+              if (window.reb2b) return;
+              window.reb2b = {loaded: true};
+              var s = document.createElement("script");
+              s.async = true;
+              s.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/" + key + "/" + key + ".js.gz";
+              document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);
+            }("VN080HXK796J");
+          `}
+        </Script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-E9JG0NK86G"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-E9JG0NK86G');
+          `}
+        </Script>
         <Script id="outseta-options" strategy="beforeInteractive">
           {`
             var o_options = {
