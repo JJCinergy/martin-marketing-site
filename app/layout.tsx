@@ -10,12 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Martin - Script to Screen, Simplified",
   description: "The fastest script breakdown in Film & TV. Built by Emmy-winning professionals who understand your workflow.",
-  icons: {
-    icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico' }
-    ],
-  },
 };
 
 export default function RootLayout({
