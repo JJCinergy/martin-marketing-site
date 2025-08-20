@@ -34,7 +34,6 @@ export default function Pricing() {
                 <span className="text-4xl font-bold text-gray-900">$75</span>
                 <span className="text-gray-600"> per month</span>
               </div>
-              <p className="text-sm text-green-600 font-medium mt-1">SALE - Save $24/month or get yearly for $750</p>
             </div>
             <p className="text-gray-600 mb-6">Best for Studio Execs, Accountants, Directors, & Designers in prep.</p>
             <ul className="space-y-3 mb-8">
@@ -66,7 +65,7 @@ export default function Pricing() {
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Excel export</span>
+                <span className="text-gray-700">PDF and Excel Export</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -96,7 +95,7 @@ export default function Pricing() {
               <span className="text-4xl font-bold text-white">$250</span>
               <span className="text-blue-100"> per month</span>
             </div>
-            <p className="text-blue-100 mb-6">Perfect for small production companies</p>
+            <p className="text-blue-100 mb-6">Perfect for small production teams</p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-white mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -126,13 +125,13 @@ export default function Pricing() {
                 <svg className="w-5 h-5 text-white mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">Priority support</span>
+                <span className="text-white">PDF and Excel Export</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-white mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-white">API access</span>
+                <span className="text-white">Priority support</span>
               </li>
             </ul>
             <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors text-center">
@@ -148,7 +147,7 @@ export default function Pricing() {
               <span className="text-4xl font-bold text-gray-900">$500</span>
               <span className="text-gray-600"> per month</span>
             </div>
-            <p className="text-gray-600 mb-6">For production companies and TV shows</p>
+            <p className="text-gray-600 mb-6">For Film and Episodic shows</p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -178,13 +177,13 @@ export default function Pricing() {
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">Priority support</span>
+                <span className="text-gray-700">PDF and Excel Export</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">API access</span>
+                <span className="text-gray-700">Priority support</span>
               </li>
             </ul>
             <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=z9M31Jm4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
