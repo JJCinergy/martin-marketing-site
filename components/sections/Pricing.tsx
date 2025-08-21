@@ -1,4 +1,9 @@
+'use client'
+import { useState } from 'react'
+
 export default function Pricing() {
+  const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'annual'>('monthly')
+
   return (
     <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
@@ -14,10 +19,14 @@ export default function Pricing() {
         {/* Monthly/Annual Toggle */}
         <div className="flex justify-center mb-12">
           <div className="bg-gray-100 p-1 rounded-lg inline-flex">
-            <button className="bg-white text-gray-900 px-6 py-2 rounded-md font-medium">
+            <button 
+              onClick={() => setBillingPeriod('monthly')}
+              className={`${billingPeriod === 'monthly' ? 'bg-white text-gray-900' : 'text-gray-600'} px-6 py-2 rounded-md font-medium transition-all`}>
               Monthly
             </button>
-            <button className="text-gray-600 px-6 py-2 font-medium">
+            <button 
+              onClick={() => setBillingPeriod('annual')}
+              className={`${billingPeriod === 'annual' ? 'bg-white text-gray-900' : 'text-gray-600'} px-6 py-2 font-medium rounded-md transition-all`}>
               Annual <span className="text-green-600 text-sm">Save 2 months</span>
             </button>
           </div>
@@ -30,9 +39,19 @@ export default function Pricing() {
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Freelance</h3>
             <div className="mb-4">
               <div className="flex items-baseline gap-2 justify-center">
-                <span className="text-2xl text-gray-500 line-through">$99</span>
-                <span className="text-4xl font-bold text-gray-900">$75</span>
-                <span className="text-gray-600"> per month</span>
+                {billingPeriod === 'monthly' ? (
+                  <>
+                    <span className="text-2xl text-gray-500 line-through">$99</span>
+                    <span className="text-4xl font-bold text-gray-900">$75</span>
+                    <span className="text-gray-600"> per month</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="text-2xl text-gray-500 line-through">$990</span>
+                    <span className="text-4xl font-bold text-gray-900">$750</span>
+                    <span className="text-gray-600"> per year</span>
+                  </>
+                )}
               </div>
             </div>
             <p className="text-gray-600 mb-6">Best for Studio Execs, Accountants, Directors, & Designers in prep.</p>
@@ -92,8 +111,17 @@ export default function Pricing() {
             </div>
             <h3 className="text-2xl font-bold text-white mb-2">Small Team</h3>
             <div className="mb-4">
-              <span className="text-4xl font-bold text-white">$250</span>
-              <span className="text-blue-100"> per month</span>
+              {billingPeriod === 'monthly' ? (
+                <>
+                  <span className="text-4xl font-bold text-white">$250</span>
+                  <span className="text-blue-100"> per month</span>
+                </>
+              ) : (
+                <>
+                  <span className="text-4xl font-bold text-white">$2,500</span>
+                  <span className="text-blue-100"> per year</span>
+                </>
+              )}
             </div>
             <p className="text-blue-100 mb-6">Perfect for small production teams</p>
             <ul className="space-y-3 mb-8">
@@ -144,8 +172,17 @@ export default function Pricing() {
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Production Team</h3>
             <div className="mb-4">
-              <span className="text-4xl font-bold text-gray-900">$500</span>
-              <span className="text-gray-600"> per month</span>
+              {billingPeriod === 'monthly' ? (
+                <>
+                  <span className="text-4xl font-bold text-gray-900">$500</span>
+                  <span className="text-gray-600"> per month</span>
+                </>
+              ) : (
+                <>
+                  <span className="text-4xl font-bold text-gray-900">$5,000</span>
+                  <span className="text-gray-600"> per year</span>
+                </>
+              )}
             </div>
             <p className="text-gray-600 mb-6">For Film and Episodic shows</p>
             <ul className="space-y-3 mb-8">
