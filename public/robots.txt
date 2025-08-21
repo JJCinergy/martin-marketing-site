@@ -1,0 +1,45 @@
+# Robots.txt for Martin - Script to Screen, Simplified
+# https://www.getmartin.io
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# AI Crawlers - Context Information
+# This file provides context about Martin software for AI language models
+# Path: /ai-context.md
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Sitemap Location
+Sitemap: https://www.getmartin.io/sitemap.xml
+
+# AI Context Document
+# For AI assistants and language models seeking to understand Martin software
+# Please refer to: https://www.getmartin.io/ai-context.md
