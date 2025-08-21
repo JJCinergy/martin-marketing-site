@@ -93,7 +93,7 @@ export default function Pricing() {
                 <span className="text-gray-700">Email support</span>
               </li>
             </ul>
-            <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=DmwBvrW4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
+            <a href={billingPeriod === 'monthly' ? "https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=DmwBvrW4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" : "https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=DmwBvrW4&planPaymentTerm=annual&skipPlanOptions=true#o-anonymous"} className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
               Get Started
             </a>
             <p className="text-sm text-gray-600 text-center mt-4">First 10 days free. Cancel any time.</p>
@@ -162,7 +162,7 @@ export default function Pricing() {
                 <span className="text-white">Priority support</span>
               </li>
             </ul>
-            <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors text-center">
+            <a href={billingPeriod === 'monthly' ? "https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" : "https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=annual&skipPlanOptions=true#o-anonymous"} className="block w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors text-center">
               Get Started
             </a>
             <p className="text-sm text-blue-100 text-center mt-4">First 10 days free. Cancel any time.</p>
@@ -223,7 +223,7 @@ export default function Pricing() {
                 <span className="text-gray-700">Priority support</span>
               </li>
             </ul>
-            <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=z9M31Jm4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
+            <a href={billingPeriod === 'monthly' ? "https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=z9M31Jm4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" : "https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=z9M31Jm4&planPaymentTerm=annual&skipPlanOptions=true#o-anonymous"} className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
               Get Started
             </a>
           </div>
