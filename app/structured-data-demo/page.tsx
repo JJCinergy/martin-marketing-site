@@ -186,26 +186,26 @@ export default function StructuredDataDemo() {
                     <div className="grid grid-cols-2 gap-4 mt-4 pt-4 border-t border-gray-200">
                       <div>
                         <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">Pricing</h4>
-                        <p className="text-sm text-gray-600">Find out how Teams, Plans, Studio, and Enterprise are priced to...</p>
+                        <p className="text-sm text-gray-600">Flexible plans for freelancers, small teams, and large productions...</p>
                       </div>
                       <div>
-                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">Script Breakdown for Mac is available...</h4>
-                        <p className="text-sm text-gray-600">Scriptation is now available for Mac... SCRIPTATION FOR MAC...</p>
+                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">How Martin Works</h4>
+                        <p className="text-sm text-gray-600">Break down scripts in minutes, not hours. See how Martin streamlines...</p>
                       </div>
                       <div>
-                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">10 Best Script Breakdown...</h4>
-                        <p className="text-sm text-gray-600">Professional studios in the Script Breakdown Arena with its sleek...</p>
+                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">IATSE Union Discounts</h4>
+                        <p className="text-sm text-gray-600">Special pricing available for IATSE union members. Get exclusive...</p>
                       </div>
                       <div>
-                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">Lining</h4>
-                        <p className="text-sm text-gray-600">Scriptation PDF Paperless Script App For Film, TV, Other...</p>
+                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">About Martin</h4>
+                        <p className="text-sm text-gray-600">Built by Emmy-winning professionals who understand your workflow...</p>
                       </div>
                       <div>
-                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">14 Best Apps for Screenwriters...</h4>
-                        <p className="text-sm text-gray-600">The screenwriting software allows you to either import a previous...</p>
+                        <h4 className="text-blue-700 hover:underline cursor-pointer font-medium">For Physical Production</h4>
+                        <p className="text-sm text-gray-600">Streamline your prep process and save days of work with automated...</p>
                       </div>
                       <div className="col-span-2">
-                        <p className="text-sm text-gray-600">More results from scriptation.com »</p>
+                        <p className="text-sm text-gray-600">More results from getmartin.io »</p>
                       </div>
                     </div>
 
