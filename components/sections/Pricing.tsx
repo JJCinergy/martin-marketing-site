@@ -75,9 +75,9 @@ export default function Pricing() {
               </li>
             </ul>
             <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=DmwBvrW4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
-              Start Free Trial
+              Get Started
             </a>
-            <p className="text-sm text-gray-600 text-center mt-4">Add-on additional projects</p>
+            <p className="text-sm text-gray-600 text-center mt-4">First 10 days free. Cancel any time.</p>
             <p className="text-sm text-blue-600 font-medium text-center mt-2">
               <a href="/iatse" className="underline hover:text-blue-700">Union discounts available</a>
             </p>
@@ -135,9 +135,8 @@ export default function Pricing() {
               </li>
             </ul>
             <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors text-center">
-              Start Free Trial
+              Get Started
             </a>
-            <p className="text-sm text-blue-100 text-center mt-4">Add-on additional projects</p>
           </div>
 
           {/* Team Plan */}
@@ -187,9 +186,8 @@ export default function Pricing() {
               </li>
             </ul>
             <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=z9M31Jm4&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition-colors text-center">
-              Start Free Trial
+              Get Started
             </a>
-            <p className="text-sm text-gray-600 text-center mt-4">Add-on additional projects</p>
           </div>
         </div>
 
