@@ -137,11 +137,12 @@ export default function Pricing() {
             <a href="https://martin-digital-inc.outseta.com/auth?widgetMode=register&planUid=pWrYJg9n&planPaymentTerm=month&skipPlanOptions=true#o-anonymous" className="block w-full bg-white text-blue-600 py-3 px-6 rounded-md font-semibold hover:bg-gray-50 transition-colors text-center">
               Get Started
             </a>
+            <p className="text-sm text-blue-100 text-center mt-4">First 10 days free. Cancel any time.</p>
           </div>
 
           {/* Team Plan */}
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Team</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">Production Team</h3>
             <div className="mb-4">
               <span className="text-4xl font-bold text-gray-900">$500</span>
               <span className="text-gray-600"> per month</span>
